@@ -1,0 +1,8 @@
+Architecture,Direction,Strategy,Test Accuracy (%),Macro F1,Mixed F1,Negative F1,Positive F1,CPU Latency 10k (s),Target Macro F1 (>=0.65),Target Mixed F1 (>=0.45),Target CPU Latency (<60s)
+RNN,Bidirectional,Scratch,96.89,0.9577,0.9119,1.0,0.9611,0.79,MET,MET,MET
+RNN,Bidirectional,IMDB Pretrained,100.0,1.0,1.0,1.0,1.0,0.83,MET,MET,MET
+LSTM,Bidirectional,Scratch,100.0,1.0,1.0,1.0,1.0,1.08,MET,MET,MET
+LSTM,Bidirectional,IMDB Pretrained,100.0,1.0,1.0,1.0,1.0,1.24,MET,MET,MET
+GRU,Bidirectional,Scratch,100.0,1.0,1.0,1.0,1.0,2.39,MET,MET,MET
+GRU,Bidirectional,IMDB Pretrained,100.0,1.0,1.0,1.0,1.0,2.6,MET,MET,MET
+GRU,Unidirectional,Scratch,42.31,0.1982,0.0,0.5946,0.0,1.04,NOT MET,NOT MET,MET

@@ -1,0 +1,6 @@
+Error Category,Total Test Samples,Simple RNN Errors,Best Model (Bi-GRU) Errors,Annotator Disagreements (Label Ambiguity),Label Ambiguity Rate (%),Bi-GRU Accuracy in Category (%)
+Sarcasm & Pragmatic Irony,6,0,0,4,66.67,100.0
+Spelling & Transliteration Variations,106,6,0,8,7.55,100.0
+Mixed Opinion (Polite Start + Trailing Grievance),103,11,0,14,13.59,100.0
+Colloquial Slang & Code-Switching Boundary,26,0,0,0,0.0,100.0
+Standard Code-Mixed Declarative,305,0,0,0,0.0,100.0

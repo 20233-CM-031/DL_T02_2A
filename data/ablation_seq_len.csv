@@ -1,0 +1,5 @@
+Max Sequence Length (L),Coverage (% reviews unclipped),Macro F1,Mixed Class F1,Test Accuracy (%),CPU Latency 10k (s)
+15,72.4,0.9977,0.9952,99.82,0.81
+30,98.2,1.0,1.0,100.0,1.35
+60,100.0,1.0,1.0,100.0,2.39
+100,100.0,1.0,1.0,100.0,3.89
